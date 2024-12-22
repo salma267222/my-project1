@@ -1,0 +1,15 @@
+class Parent(): 
+	
+	def show(self): 
+		print("Inside Parent") 
+		
+class Child(Parent): 
+	
+	def show(self): 
+		
+		
+		Parent.show(self)    
+		print("Inside Child") 
+		 Driver's code 
+obj = Child() 
+obj.show() 
