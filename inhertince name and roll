@@ -1,0 +1,24 @@
+class CSStudent:
+	stream = 'cse'				 # Class Variable (Static)
+	def __init__(self,name,roll):
+		self.name = name		 # Instance Variable
+		self.roll = roll		 # Instance Variable
+
+
+a = CSStudent('Geek', 1)
+b = CSStudent('Nerd', 2)
+
+print(a.stream) 
+print(b.stream)
+print(b.name)  
+print(a.roll) 
+print(b.roll)  
+
+
+print(CSStudent.stream) # prints "cse"
+
+
+
+CSStudent.stream = 'mech'
+
+print(a.stream) 
