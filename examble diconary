@@ -1,0 +1,11 @@
+my_dict = {
+    "name": "Ali",
+    "age": 25,
+    "city": "Cairo"
+}
+
+# طباعة dictionary
+print(my_dict)
+
+# الوصول إلى قيمة باستخدام المفتاح
+print("Name:", my_dict["name"])
