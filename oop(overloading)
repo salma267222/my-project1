@@ -1,0 +1,12 @@
+class MathOperations:
+   
+    def add(self, a, b):
+        return a + b
+
+    def add(self, a, b, c=0):
+        return a + b + c
+
+
+math = MathOperations()
+print("مجموع رقمين:", math.add(5, 3))       
+print("مجموع ثلاثة أرقام:", math.add(5, 3, 2))   
