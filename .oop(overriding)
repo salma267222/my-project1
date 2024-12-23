@@ -1,0 +1,15 @@
+class Parent:
+    def greet(self):
+        return "welcom inside parent!"
+
+class Child(Parent):
+    def greet(self):
+        return " welcom inside child  !"
+
+
+# 
+parent = Parent()
+child = Child()
+
+print(parent.greet())       
+print(child.greet())    
