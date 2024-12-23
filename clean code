@@ -1,0 +1,10 @@
+def calculate_positive_sum(a, b, c):
+    
+    values = [num for num in (a, b, c) if num > 0]
+    return sum(values)
+
+
+print(calculate_positive_sum(1, 2, 3))  # الناتج: 6
+print(calculate_positive_sum(-1, 2, 3))  # الناتج: 5
+print(calculate_positive_sum(1, -2, -3))  # الناتج: 1
+print(calculate_positive_sum(-1, -2, -3))  #
